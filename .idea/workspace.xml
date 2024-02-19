@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99364e70-ba2b-4b0c-b2a3-48b11bd72357" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Basics-Scripts/demo/ClickDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics-Scripts/demo/ClickDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics-Scripts/demo/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics-Scripts/demo/House.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cTbq6fTZb2UZubW7ul7SeghKT7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AlienLanguage.executor": "Run",
+    "Application.BlurbChecker.executor": "Run",
+    "Application.CatchMe.executor": "Run",
+    "Application.ClickDistance.executor": "Run",
+    "Application.ColorOptions.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.House.executor": "Run",
+    "Application.Olympics.executor": "Run",
+    "Application.PizzaCustomizer.executor": "Run",
+    "Application.RadiusModifier.executor": "Run",
+    "Application.RubberCircles.executor": "Run",
+    "Application.RubberLines.executor": "Run",
+    "Application.Snowman.executor": "Run",
+    "Application.TaskDriver.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mathe\IdeaProjects\demo\target\classes\com\example\demo" />
+      <recent name="C:\Users\mathe\IdeaProjects\demo\src\main\java\com\example\demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ClickDistance" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ClickDistance" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99364e70-ba2b-4b0c-b2a3-48b11bd72357" name="Changes" comment="" />
+      <created>1708138708439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708138708439</updated>
+    </task>
+    <servers />
+  </component>
+</project>
