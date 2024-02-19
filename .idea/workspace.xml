@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99364e70-ba2b-4b0c-b2a3-48b11bd72357" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Basics-Scripts/demo/ClickDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics-Scripts/demo/ClickDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics-Scripts/demo/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics-Scripts/demo/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -47,7 +48,7 @@
     "Application.AlienLanguage.executor": "Run",
     "Application.BlurbChecker.executor": "Run",
     "Application.CatchMe.executor": "Run",
-    "Application.ClickDistance.executor": "Run",
+    "Application.ClickDistance.executor": "Debug",
     "Application.ColorOptions.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "Application.House.executor": "Run",
@@ -58,33 +59,48 @@
     "Application.RubberLines.executor": "Run",
     "Application.Snowman.executor": "Run",
     "Application.TaskDriver.executor": "Run",
+    "JUnit.All in demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mathe/Documents/Programming/javafx-sdk-21.0.2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mathe\IdeaProjects\demo\Basics-Scripts\src" />
+      <recent name="C:\Users\mathe\IdeaProjects\demo\Basics-Scripts\demo" />
+      <recent name="C:\Users\mathe\IdeaProjects\demo\Basics-Scripts\demo\components" />
+      <recent name="C:\Users\mathe\IdeaProjects\demo\Basics-Scripts" />
       <recent name="C:\Users\mathe\IdeaProjects\demo\target\classes\com\example\demo" />
-      <recent name="C:\Users\mathe\IdeaProjects\demo\src\main\java\com\example\demo" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ClickDistance" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.ClickDistance" />
+    <configuration name="All in demo" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea --module-path &quot;C:\Users\mathe\Documents\Programming\javafx-sdk-21.0.2&quot; --add-modules javafx.controls, javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,5 +112,8 @@
       <updated>1708138708439</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$House.ic" NAME="House Coverage Results" MODIFIED="1708376606356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
