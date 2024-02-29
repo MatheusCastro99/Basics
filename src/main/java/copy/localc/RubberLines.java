@@ -6,7 +6,14 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
+import javafx.scene.text.*;
 import javafx.stage.Stage;
+import javafx.scene.control.Button;
+import javafx.event.ActionEvent;
+
+
+
+
 //************************************************************************
 //  RubberLines.java       Author: Lewis/Loftus
 //
@@ -16,13 +23,27 @@ public class RubberLines extends Application
 {
     private Line currentLine;
     private Group root;
+
+    private Button clear;
+
+    private Text lineCount;
+
+    private int count;
     //--------------------------------------------------------------------
     //  Displays an initially empty scene, waiting for the user to
     //  draw lines with the mouse.
     //--------------------------------------------------------------------
     public void start(Stage primaryStage)
     {
-        root = new Group(); // root has nothing, empty
+        clear = new Button("Clear");
+        clear.setOnAction(this::processClearButton);
+        clear.setTranslateX(230);
+        clear.setTranslateY(15);
+
+        lineCount = new Text(145, 30, "Line count: --");
+        lineCount.setFill(Color.GREEN);
+
+        root = new Group(clear, lineCount); // root has nothing, empty
 
         Scene scene = new Scene(root, 500, 300, Color.BLACK); // scene is like a blackboard
 
@@ -42,7 +63,10 @@ public class RubberLines extends Application
                 event.getX(), event.getY());  // end-point, change with dragging
         currentLine.setStroke(Color.CYAN);
         currentLine.setStrokeWidth(3);
-        root.getChildren().add(currentLine);
+        root.getChildren().addFirst(currentLine);
+
+        count++;
+        lineCount.setText("Line Count: " + count);
     }
     //--------------------------------------------------------------------
     //  Updates the end point of the current line as the mouse is
@@ -52,6 +76,15 @@ public class RubberLines extends Application
     {
         currentLine.setEndX(event.getX());
         currentLine.setEndY(event.getY());
+    }
+
+    public void processClearButton(ActionEvent event) {
+        lineCount.setText("Line Count: --");
+        count = 0;
+
+        root.getChildren().clear();
+        root.getChildren().add(clear);
+        root.getChildren().add(lineCount);
     }
     public static void main(String[] args)
     {
