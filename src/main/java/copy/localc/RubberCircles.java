@@ -62,7 +62,7 @@ public class RubberCircles extends Application
         radiusLine.setStroke(Color.BLUE);
         radiusLine.setStrokeWidth(3);
         
-        root.getChildren().add(radiusLine);   
+        root.getChildren().add(radiusLine);
     }
 
     public void processMouseDrag(MouseEvent event)
@@ -86,7 +86,8 @@ public class RubberCircles extends Application
       newCircle.setStrokeWidth(3);
       newCircle.setFill(Color.WHITE);
       
-      root.getChildren().add(newCircle);
+      root.getChildren().addFirst(newCircle);
+      root.getChildren().remove(radiusLine);
         
       circleCount++;
       count.setText("Circle Count: " + circleCount);
@@ -95,6 +96,7 @@ public class RubberCircles extends Application
     public void processClearButton(ActionEvent event)
     {  
       count.setText("Circle Count: --");
+      circleCount = 0;
       
       root.getChildren().clear();
       root.getChildren().add(count);
